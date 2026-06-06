@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "eastory",
+  "version": "1.0.0",
+  "name": "Eastory Client",
+  "authors": ["Eastory"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.eastory.client.EastoryClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.11"
+  }
+}
